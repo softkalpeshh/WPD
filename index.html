@@ -1,17 +1,16 @@
-﻿<html>
+<!DOCTYPE html>
+<html>
 <head>
-    <title>WPD PR24</title>
+    <title>WPD PR23</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
 
+    <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
         }
-
-        /* Navigation Bar */
 
         nav {
             background: red;
@@ -21,31 +20,28 @@
             align-items: center;
         }
 
-            nav h2 {
-                color: white;
-            }
+        nav h2 {
+            color: white;
+        }
 
-            nav ul {
-                list-style: none;
-                display: flex;
-            }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
 
-                nav ul li {
-                    margin-left: 20px;
-                }
+        nav ul li {
+            margin-left: 20px;
+        }
 
-                    nav ul li a {
-                        text-decoration: none;
-                        color: white;
-                        font-weight: bold;
-                        transition: 0.3s;
-                    }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
 
-                        nav ul li a:hover {
-                            color: yellow;
-                        }
-
-        /* Header Section */
+        nav ul li a:hover {
+            color: yellow;
+        }
 
         header {
             background: linear-gradient(to right,#1a73e8,#00c6ff);
@@ -53,12 +49,6 @@
             text-align: center;
             padding: 60px 20px;
         }
-
-            header h1 {
-                font-size: 30px;
-            }
-
-        /* Practical Section */
 
         .container {
             padding: 40px;
@@ -71,21 +61,11 @@
         }
 
         .card {
-            background: oceanblue;
+            background: hotpink;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
             text-align: center;
-            transition: 0.3s;
         }
-
-            .card:hover {
-                transform: translateY(-8px);
-            }
-
-            .card h3 {
-                margin-bottom: 10px;
-            }
 
         .btn {
             display: inline-block;
@@ -97,11 +77,9 @@
             margin-top: 10px;
         }
 
-            .btn:hover {
-                background: #0b4dbb;
-            }
-
-        /* Footer */
+        .btn:hover {
+            background: #0b4dbb;
+        }
 
         footer {
             background: green;
@@ -110,269 +88,114 @@
             padding: 20px;
             margin-top: 30px;
         }
+
+        /* FORM STYLE */
+        .form-box {
+            padding: 30px;
+            margin: 40px;
+            background: #f4f4f4;
+            border-radius: 10px;
+        }
+
+        .form-box input, .form-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
     </style>
 </head>
 
-
-
 <body>
-    <!-- Header -->
 
-    <header>
+<header>
+    <h1>MSBTE WPD Practicals</h1>
+    <p>Interactive Practical Website</p>
+</header>
 
-        <h1>MSBTE WPD Practicals</h1>
-        <p>Interactive Practical Website</p>
+<nav>
+    <h2>WPD Practicals</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Home</a></li>
+        <li><a href="#">Practicals</a></li>
+        <li><a href="https://mail.google.com/mail/u/0/" target="_blank">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
-    </header>
+<div class="container">
+    <h2 style="margin-bottom:20px;">List of Practicals</h2>
 
-    <!-- Navigation Bar -->
-
-    <nav>
-        <h2>WPD Practicals</h2>
-
-        <ul>
-            <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Home</a></li>
-            <li><a href="#">Practicals</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/" target="_blank">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-
-    </nav>
-
-    <!-- Practicals -->
-
-    <div class="container">
-
-        <h2 style="margin-bottom:20px;">List of Practicals</h2>
-
-        <div class="grid">
-
-            <div class="card">
-                <h3>Practical 1</h3>
-                <p>Basic HTML Page</p>
-                <a class="btn" href="PR1.html" target="_blank">View</a>
-                <a class="btn" href="PR1.png" target="_blank">OutPut</a>
-                 <a class="btn" href="PREX11.html" target="_blank">View PR1EX1 Code</a>
-                <a class="btn" href="PR1.png" target="_blank">OutPut of PR1EX1</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 2</h3>
-                <p>Text Formatting Tags</p>
-                <a class="btn" href="PR2.html">View</a>
-                <a class="btn" href="PR2.png">OutPut</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 3</h3>
-                <p>HTML Lists</p>
-                <a class="btn" href="PR3.html">View</a>
-                <a class="btn" href="PR3.png">output</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 4</h3>
-                <p>Hyperlinks</p>
-                <a class="btn" href="PR4.html">View</a>
-                 <a class="btn" href="PR4.png">output</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 5</h3>
-                <p>Image Tag</p>
-                <a class="btn" href="PR5.html" target="_blank">View</a>
-                <a class="btn" href="PR5.png" target="_blank">output</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 6</h3>
-                <p>HTML Tables</p>
-                <a class="btn" href="PR6.html">View</a>
-                <a class="btn" href="PR6.png" target="_blank">output</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 7</h3>
-                <p>HTML Forms</p>
-                <a class="btn" href="PR7.html">View</a>
-                 <a class="btn" href="PR7.png">OUTPUT</a>
-                 <a class="btn" href="PR7EX1.html">View PR7EX1 CODE</a>
-                 <a class="btn" href="PR7EX1.png">OUTPUT OF PR7EX1</a>
-        
-            </div>
-
-            <div class="card">
-                <h3>Practical 8</h3>
-                <p>Audio & Video Tag</p>
-                <a class="btn" href="PR8.html">View</a>
-                 <a class="btn" href="PR8.png">OUTPUT</a>
-                 <a class="btn" href="PR8EX1.html">View PR8EX1 CODE</a>
-                 <a class="btn" href="PR8EX1.png">OUTPUT OF PR8EX1</a>
-                                 <a class="btn" href="PR8EX2.html">VIEW PR8EX2 CODE</a>
-
-                                 <a class="btn" href="PR8EX2.png">OUTPUT OF PR8EX2</a>
-
-            </div>
-
-            <div class="card">
-                <h3>Practical 9</h3>
-                <p>CSS Introduction</p>
-                <a class="btn" href="PR9.html">View</a>
-                a class="btn" href="PR9.png">OUTPUT</a>
-      
-            </div>
-
-            <div class="card">
-                <h3>Practical 10</h3>
-                <p>CSS Selectors</p>
-                <a class="btn" href="PR10.html">View</a>
-                  <a class="btn" href="PR10.png">OUTPUT</a>
-                <a class="btn" href="PR10.html">VIEW PR10EX1 CODE</a>
-                <a class="btn" href="PR10.png">OUTPUT OF PR10EX1 </a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 11</h3>
-                <p>Box Model</p>
-                <a class="btn" href="PR11.html">View</a>
-                 <a class="btn" href="PR11.png">OUTPUT</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 12</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR12.html" target="_blank">View</a>
-                 <a class="btn" href="PR12.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR12EX1.html" target="_blank">View PR12EX1 CODE</a>
-                 <a class="btn" href="PR12EX1.png" target="_blank"> OUTPUT OF PR12EX1</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 13</h3>
-                <p>Navigation Bar Design</p>
-                <a class="btn" href="PR13.html">View</a>
-                  <a class="btn" href="PR13.png">OUTPUT</a>
-            </div>
-
-            <div class="card">
-                <h3>Practical 14</h3>
-                <p>Responsive Web Page</p>
-                <a class="btn" href="PR14.html">View</a>
-                 <a class="btn" href="PR14.png">OUTPUT</a>
-            </div>
-             <div class="card">
-                <h3>Practical 15</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR15.html" target="_blank">View</a>
-                 <a class="btn" href="PR15.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR15EX1.html" target="_blank">View PR15EX1 CODE</a>
-                 <a class="btn" href="PR15EX1.png" target="_blank"> OUTPUT OF PR15EX1</a>
-            </div>
-             <div class="card">
-                <h3>Practical 16</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR16.html" target="_blank">View</a>
-                 <a class="btn" href="PR16.png" target="_blank">OUTPUT</a>
-            
-            </div>
-             <div class="card">
-                <h3>Practical 17</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR17.html" target="_blank">View</a>
-                 <a class="btn" href="PR17.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR17EX1.html" target="_blank">View PR17EX1 CODE</a>
-                 <a class="btn" href="PR17EX1.png" target="_blank"> OUTPUT OF PR17EX1</a>
-            </div>
-             <div class="card">
-                <h3>Practical 18</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR18.html" target="_blank">View</a>
-                 <a class="btn" href="PR18.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR18EX1.html" target="_blank">View PR18EX1 CODE</a>
-                 <a class="btn" href="PR18EX1.png" target="_blank"> OUTPUT OF PR18EX1</a>
-            </div>
-             <div class="card">
-                <h3>Practical 19</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR19.html" target="_blank">View</a>
-                 <a class="btn" href="PR19.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR19EX1.html" target="_blank">View PR19EX1 CODE</a>
-                 <a class="btn" href="PR19EX1.png" target="_blank"> OUTPUT OF PR19EX1</a>
-            </div>
-             <div class="card">
-                <h3>Practical 20</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR20N1.html" target="_blank">View</a>
-                 <a class="btn" href="PR20N1.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR20N2.html" target="_blank">View PR20EX1 CODE</a>
-                 <a class="btn" href="PR20N2.png" target="_blank"> OUTPUT OF PR20EX1</a>
-                   <a class="btn" href="PR20N2.html" target="_blank">View PR20EX1 CODE</a>
-                 <a class="btn" href="PR20N2.png" target="_blank"> OUTPUT OF PR20EX1</a>
-            </div>
-             <div class="card">
-                <h3>Practical 21</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR21.html" target="_blank">View</a>
-                 <a class="btn" href="PR21.png" target="_blank">OUTPUT</a>
-                 <a class="btn" href="PR21EX1.html" target="_blank">View PR21EX1 CODE</a>
-                 <a class="btn" href="PR21EX1.png" target="_blank"> OUTPUT OF PR21EX1</a>
-            </div>
-             <div class="card">
-                <h3>Practical 22</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR22.html" target="_blank">View</a>
-                 <a class="btn" href="PR22.png" target="_blank">OUTPUT</a>
-                 
-            </div>
-             <div class="card">
-                <h3>Practical 23</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR23.html" target="_blank">View</a>
-                 <a class="btn" href="PR23.png" target="_blank">OUTPUT</a>
-               
-            </div>
-             <div class="card">
-                <h3>Practical 24</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR24.html" target="_blank">View</a>
-                 <a class="btn" href="PR24.png" target="_blank">OUTPUT</a>
-               
-            </div>
-            <div class="card">
-                <h3>Practical 25</h3>
-                <p>CSS Layout</p>
-                <a class="btn" href="PR25.html" target="_blank">View</a>
-                 <a class="btn" href="PR25.png" target="_blank">OUTPUT</a>
-               
-            </div>
+    <div class="grid">
+        <div class="card">
+            <h3>Practical 1</h3>
+            <p>Basic HTML Page</p>
+            <a class="btn" href="Pr1.html" target="_blank">View</a>
         </div>
 
+        <div class="card">
+            <h3>Practical 2</h3>
+            <p>Text Formatting Tags</p>
+            <a class="btn" href="p2.html">View</a>
+        </div>
     </div>
+</div>
 
-    <!-- Footer -->
+<footer>
+    <p>© 2026 MSBTE WPD Practical Website</p>
+</footer>
 
-    <footer>
+<!-- CONTACT INFO -->
+<h2 style="padding:20px;">Contact Information</h2>
+<p style="padding-left:20px;"><b>Name:</b> Chetan S Mogare</p>
 
-        <p>© 2026 MSBTE WPD Practical Website</p>
+<!-- FORM -->
+<div class="form-box">
+    <h2>Contact Form</h2>
 
-    </footer>
+    <form id="contactForm">
+        <label>Name:</label>
+        <input type="text" name="name" required>
 
+        <label>Email:</label>
+        <input type="email" name="email" required>
 
+        <label>Message:</label>
+        <textarea name="message" required></textarea>
 
+        <label>Date:</label>
+        <input type="date" name="date" required>
 
+        <button type="submit" class="btn">Submit</button>
+    </form>
 
-   <h2>contact information</h2>
-    <p><b><u>NAME</u>:</b><i>kalpesh ahire</i></p>
-    <address>
-        <a href="mailto:kalpeshahire914@gmail.com">
-            kalpeshahire914@gmail.com
-        </a>
-        <br />NAME:KALPESH AHIRE
-        <br />COLLEGE:MET`S INSTITUTE OF POLYTECHNIC
-        <br />DEPARTMENT:INFORMATION TECHNOLOGY
-        <br />MOBILE:9890214509
+    <p id="responseMsg"></p>
+</div>
 
-    </address>
+<!-- SCRIPT -->
+<script>
+const scriptURL = "https://script.google.com/macros/s/AKfycbzJLU_6RRen8LBLtd2eEMDqvqSlk4Pilt61Ui1_uplqhhJsVE19detDTlr_AayLDQnHwQ/exec";
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let formData = new FormData(this);
+
+    fetch(scriptURL, {
+        method: "POST",
+        body: formData
+    })
+    .then(response => {
+        document.getElementById("responseMsg").innerHTML = "✅ Form submitted successfully!";
+        document.getElementById("contactForm").reset();
+    })
+    .catch(error => {
+        document.getElementById("responseMsg").innerHTML = "❌ Error submitting form!";
+    });
+});
+</script>
 
 </body>
 </html>
