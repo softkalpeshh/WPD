@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WPD PR23</title>
+    <title>WPD PR25</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
@@ -121,7 +121,7 @@
             <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Home</a></li>
             <li><a href="#">Practicals</a></li>
             <li><a href="https://mail.google.com/mail/u/0/" target="_blank">About</a></li>
-            <li><a href="https://softkalpeshh.github.io/contact_pagesoft/">Contact</a></li>
+            <li><a href="https://softkalpeshh.github.io/contact_pagesoft/" target="_blank">Contact</a></li>
         </ul>
     </nav>
 
@@ -379,7 +379,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
         body: formData
     })
     .then(response => {
-        document.getElementById("responseMsg").innerHTML = "ERROR!";
+        document.getElementById("responseMsg").innerHTML = "❌ ERROR!";
         document.getElementById("contactForm").reset();
     })
     .catch(error => {
