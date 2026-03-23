@@ -1,0 +1,260 @@
+﻿<html>
+<head>
+    <title>WPD PR23</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar */
+
+        nav {
+            background: red;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            nav h2 {
+                color: white;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+            }
+
+                nav ul li {
+                    margin-left: 20px;
+                }
+
+                    nav ul li a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                        transition: 0.3s;
+                    }
+
+                        nav ul li a:hover {
+                            color: yellow;
+                        }
+
+        /* Header Section */
+
+        header {
+            background: linear-gradient(to right,#1a73e8,#00c6ff);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+            header h1 {
+                font-size: 30px;
+            }
+
+        /* Practical Section */
+
+        .container {
+            padding: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: hotpink;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+            .card:hover {
+                transform: translateY(-8px);
+            }
+
+            .card h3 {
+                margin-bottom: 10px;
+            }
+
+        .btn {
+            display: inline-block;
+            background: green;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+            .btn:hover {
+                background: #0b4dbb;
+            }
+
+        /* Footer */
+
+        footer {
+            background: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <!-- Header -->
+
+    <header>
+
+        <h1>MSBTE WPD Practicals</h1>
+        <p>Interactive Practical Website</p>
+
+    </header>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <h2>WPD Practicals</h2>
+
+        <ul>
+            <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Home</a></li>
+            <li><a href="#">Practicals</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/" target="_blank">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Practicals -->
+
+    <div class="container">
+
+        <h2 style="margin-bottom:20px;">List of Practicals</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Practical 1</h3>
+                <p>Basic HTML Page</p>
+                <a class="btn" href="Pr1.html" target="_blank">View</a>
+                <a class="btn" href="Pr1.png" target="_blank">OutPut</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 2</h3>
+                <p>Text Formatting Tags</p>
+                <a class="btn" href="p2.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 3</h3>
+                <p>HTML Lists</p>
+                <a class="btn" href="p3.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 4</h3>
+                <p>Hyperlinks</p>
+                <a class="btn" href="p4.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 5</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="Pr5.html" target="_blank">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 6</h3>
+                <p>HTML Tables</p>
+                <a class="btn" href="p6.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 7</h3>
+                <p>HTML Forms</p>
+                <a class="btn" href="p7.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 8</h3>
+                <p>Audio & Video Tag</p>
+                <a class="btn" href="p8.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 9</h3>
+                <p>CSS Introduction</p>
+                <a class="btn" href="Pr 9.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 10</h3>
+                <p>CSS Selectors</p>
+                <a class="btn" href="p10.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 11</h3>
+                <p>Box Model</p>
+                <a class="btn" href="p11.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 12</h3>
+                <p>CSS Layout</p>
+                <a class="btn" href="Pr12.html" target="_blank">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 13</h3>
+                <p>Navigation Bar Design</p>
+                <a class="btn" href="p13.html">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practical 14</h3>
+                <p>Responsive Web Page</p>
+                <a class="btn" href="p14.html">View</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 MSBTE WPD Practical Website</p>
+
+    </footer>
+
+
+
+
+
+    <h2>Contact Information </h2>
+    <p><b><u>Name</u>:</b> <i>Chetan S Mogare</i></p>
+    <address>
+        MET'S INSTITUTE OF TECHNOLOGY POLYTECHNIC BHUJBAL KNOWLEDGE CITY<br />
+        Department of Information Technology <br>
+        Email: chetanm_iot@bkc.met.edu <br />
+        phone: 8668640288
+    </address>
+</body>
+</html>
